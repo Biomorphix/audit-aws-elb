@@ -88,7 +88,7 @@ coreo_aws_rule_runner_elb "advise-elb" do
   action :run
   regions ${AUDIT_AWS_ELB_REGIONS}
 
-  objects_to_filter = {:include_id => "${FILTERED_OBJECTS}"} if "${FILTERED_OBJECTS}".any?
+  objects_to_filter = {:include_id => ${FILTERED_OBJECTS}} if ${FILTERED_OBJECTS}.any?
   filter objects_to_filter
 end
 

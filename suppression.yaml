@@ -1,0 +1,13 @@
+elb-inventory:
+  - put-your-object-id-here-1: ""
+  - put-your-object-id-here-2: "2017-01-10T00:00Z"
+elb-old-ssl-policy:
+  - put-your-object-id-here-1: ""
+  - put-your-object-id-here-2: "2017-01-10T00:00Z"
+elb-current-ssl-policy:
+  - put-your-object-id-here-1: ""
+  - put-your-object-id-here-2: "2017-01-10T00:00Z"
+
+# Suppression times (optional) use ISO date formats according to this template:
+#
+# YYYY-MM-DDTHH:mm:ss.sssZ

@@ -1,0 +1,9 @@
+variables:
+    AUDIT_AWS_ELB_ALERT_LIST:
+        required: false
+        type: array
+        default:
+            - elb-inventory # not_violation 
+            - elb-old-ssl-policy # 
+            - elb-current-ssl-policy # not_violation 
+        description: "Which rules would you like to run? Possible values are elb-inventory elb-old-ssl-policy elb-current-ssl-policy"

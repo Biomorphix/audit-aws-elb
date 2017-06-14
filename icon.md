@@ -1,0 +1,1 @@
+![icon](https://raw.githubusercontent.com/CloudCoreo/audit-aws-elb/master/images/icon.png "icon")
